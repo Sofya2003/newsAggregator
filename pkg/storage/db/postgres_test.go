@@ -7,7 +7,8 @@ import (
 	"time"
 )
 
-//const DBURL = "postgres://postgres:postgres@127.0.0.1:8081/posts"
+//const DBURL = "postgres://postgres:postgres@5432/postsDB"
+
 const DBURL = "user=postgres password=Keks17sql dbname=postsDB sslmode=disable"
 
 func TestNew(t *testing.T) {
